@@ -9,3 +9,5 @@ This controller class asks to be injected with an `IDatabaseProvider` class, whi
 Finally, the `JavalinContainer` class receives all `Plugin` classes bound by the Multibinder in a set, and registers them on the Javalin instance.
 
 To see the final product in action, simply run the project using `gradle run`, then navigate to `http://localhost:7000/snacks/{key}` where `{key}` is any of `[key1, key2, key3]`, corresponding to the map in the `MyDatabaseProvider` class.
+
+![Project class diagram](/diagram.png)
